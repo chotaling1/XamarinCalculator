@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:padding="20px">
+	<TextView
+		android:text="0"
+		android:padding="5px"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:id="@+id/InputBufferText" />
+
+	<TextView
+		android:text="0"
+		android:padding="5px"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="right"
+		android:id="@+id/CurrentInputText" />
+
+	<TableLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/gridView1">
+		<TableRow
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tableRow4">
+			<Button
+				android:text="+"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonAdd" />
+			<Button
+				android:text="-"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonSubtract" />
+			<Button
+				android:text="*"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonMultiply"/>
+			<Button
+				android:text="/"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonDivide" />
+		</TableRow>
+		<TableRow
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tableRow1">
+			<Button
+				android:text="7"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button7" />
+			<Button
+				android:text="8"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button8" />
+			<Button
+				android:text="9"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button9" />
+			<Button
+				android:text="Enter"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonEnter" />
+		</TableRow>
+		<TableRow
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tableRow2">
+			<Button
+				android:text="4"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button4" />
+			<Button
+				android:text="5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button5" />
+			<Button
+				android:text="6"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button6" />
+			<Button
+				android:text="Clear"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonClear" />
+		</TableRow>
+		<TableRow
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tableRow3">
+			<Button
+				android:text="1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button1" />
+			<Button
+				android:text="2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button2" />
+			<Button
+				android:text="3"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button3"/>
+			<Button
+				android:text="Back"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonBack" />
+		</TableRow>
+		<TableRow
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tableRow3">
+			<Button
+				android:text="0"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/button0" />
+			<Button
+				android:text="."
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonDecimal" />
+			<Button
+				android:text="-"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonNegative"/>
+		</TableRow>
+		<TableRow
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/tableRow3">
+			<Button
+				android:text="QuickSort"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:textSize="10sp"
+				android:id="@+id/buttonQuickSort" />
+			<Button
+				android:text="Palindrome"
+				android:textSize="10sp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonPalindrome"/>
+			<Button
+				android:text="RNG"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/buttonRNG" />
+		</TableRow>
+	
+	</TableLayout>
+</LinearLayout>
